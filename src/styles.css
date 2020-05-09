@@ -6,6 +6,12 @@
 
 body {
   font-size: 14px;
+  font-family: Avenir;
+}
+
+#root {
+  width: 30%;
+  max-width: 30%;
 }
 
 div {
@@ -23,7 +29,7 @@ div li + li {
 }
 
 button {
-  background: #7159c1;
+  background: #0a9248;
   color: #fff;
   border: 0;
   padding: 10px 15px;
@@ -31,9 +37,20 @@ button {
   margin-top: 15px;
   font-weight: bold;
   font-size: 14px;
+  border-radius: 5px;
 }
 
 div li button {
   margin: 0 15px;
   background: #ca4949;
+  width: 100px;
+}
+
+div button {
+  width: 100%;
+}
+
+hr {
+  margin-top: 20px;
+  border: 1px solid #f2f2f2;
 }
